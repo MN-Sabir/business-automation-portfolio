@@ -34,3 +34,17 @@ Google Form → Google Sheets → Make.com → Airtable CRM → Gmail Confirmati
 
 ## Screenshots
 Project screenshots are available in this repository.
+
+## Project Evidence
+
+### Airtable CRM — Main Fields
+![Airtable CRM Main Fields](01_Airtable_CRM_Main_Fields.png)
+
+### Airtable CRM — Tracking Fields
+![Airtable CRM Tracking Fields](02_Airtable_CRM_Tracking_Fields.png)
+
+### Google Lead Inquiry Form
+![Google Lead Inquiry Form](03_Google_Lead_Inquiry_Form.png)
+
+### Google Sheets Lead Response
+![Google Sheets Lead Response](04_Google_Sheets_Lead_Response.png)
