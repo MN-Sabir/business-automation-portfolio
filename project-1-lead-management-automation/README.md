@@ -75,3 +75,6 @@ Project screenshots are available in this repository.
 
 ### Error Log and Resolutions
 ![Automation Error Log](10_Automation_Error_Log.png)
+
+## Project Demo
+[Watch the Automated Lead Capture and CRM Follow-Up System Demo](https://www.loom.com/share/385f62fb0fcd461dbf194b11a26fa1ee ))
