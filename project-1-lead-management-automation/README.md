@@ -86,3 +86,8 @@ A sanitized Make.com blueprint is included for reviewing the workflow structure 
 [Download the sanitized Make blueprint](Lead_Capture_to_Airtable_CRM_SANITIZED.blueprint.json)
 
 Before importing, replace the placeholder connection IDs, Google Sheet ID, Slack channel ID, and other account-specific values with your own configuration.
+
+### Live Error Handler Test
+![Live Error Handler Test](11_Live_Error_Handler_Test.png)
+
+The workflow successfully captured an Airtable validation failure, logged the error in Google Sheets, and stopped customer and sales notifications for the failed lead.
