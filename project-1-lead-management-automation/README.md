@@ -77,4 +77,12 @@ Project screenshots are available in this repository.
 ![Automation Error Log](10_Automation_Error_Log.png)
 
 ## Project Demo
-[Watch the Automated Lead Capture and CRM Follow-Up System Demo](https://www.loom.com/share/385f62fb0fcd461dbf194b11a26fa1ee ))
+[Watch the Automated Lead Capture and CRM Follow-Up System Demo](https://www.loom.com/share/385f62fb0fcd461dbf194b11a26fa1ee )
+
+## Scenario Blueprint
+
+A sanitized Make.com blueprint is included for reviewing the workflow structure and mappings.
+
+[Download the sanitized Make blueprint](Lead_Capture_to_Airtable_CRM_SANITIZED.blueprint.json)
+
+Before importing, replace the placeholder connection IDs, Google Sheet ID, Slack channel ID, and other account-specific values with your own configuration.
