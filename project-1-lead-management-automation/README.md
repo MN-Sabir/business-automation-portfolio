@@ -48,3 +48,15 @@ Project screenshots are available in this repository.
 
 ### Google Sheets Lead Response
 ![Google Sheets Lead Response](04_Google_Sheets_Lead_Response.png)
+
+### Airtable Lead Pipeline
+![Airtable Lead Pipeline](05_Airtable_Lead_Pipeline.png)
+
+### Slack New Lead Notification
+![Slack New Lead Notification](06_Slack_New_Lead_Notification.png)
+
+### Complete Make Automation Workflow
+![Complete Make Automation Workflow](07_Make_Complete_Lead_Automation.png)
+
+### Customer Confirmation Email
+![Customer Confirmation Email](08_Customer_Confirmation_Email.png)
