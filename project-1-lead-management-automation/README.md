@@ -87,6 +87,21 @@ A sanitized Make.com blueprint is included for reviewing the workflow structure 
 
 Before importing, replace the placeholder connection IDs, Google Sheet ID, Slack channel ID, and other account-specific values with your own configuration.
 
+## Reliability and Error Handling
+
+The workflow includes an Airtable error-handler route.
+
+When Airtable rejects a lead:
+
+- The error is logged in the `Automation Errors` Google Sheet
+- The failed module and error message are recorded
+- The affected bundle is skipped safely
+- Customer confirmation email is not sent
+- Slack sales notification is not sent
+- Other valid leads can continue processing
+
+The error handler was successfully tested using an invalid Airtable single-select value.
+
 ### Live Error Handler Test
 ![Live Error Handler Test](11_Live_Error_Handler_Test.png)
 
