@@ -72,3 +72,6 @@ Project screenshots are available in this repository.
 
 ### Automation Test Results
 ![Automation Test Results](09_Automation_Test_Results.png)
+
+### Error Log and Resolutions
+![Automation Error Log](10_Automation_Error_Log.png)
