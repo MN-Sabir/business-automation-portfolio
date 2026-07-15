@@ -69,3 +69,6 @@ Project screenshots are available in this repository.
 
 ### Customer Confirmation Email
 ![Customer Confirmation Email](08_Customer_Confirmation_Email.png)
+
+### Automation Test Results
+![Automation Test Results](09_Automation_Test_Results.png)
