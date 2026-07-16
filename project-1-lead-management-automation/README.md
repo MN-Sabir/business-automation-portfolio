@@ -109,3 +109,38 @@ The workflow successfully captured an Airtable validation failure, logged the er
 
 ### Complete Workflow With Error Handling
 ![Make Workflow With Error Handler](12_Make_Workflow_With_Error_Handler.png)
+
+## Duplicate Lead Detection
+
+The workflow checks Airtable for an existing lead before creating a new record.
+
+### How It Works
+
+1. A new lead is captured through Google Forms.
+2. Google Sheets Watch New Rows sends the response to Make.
+3. Airtable Search Records checks the submitted email address.
+4. The Array Aggregator collects the search result.
+5. A Router separates new and duplicate leads.
+
+### New Lead Route
+
+When no Airtable Record ID is found:
+
+- A new lead is created in Airtable.
+- A confirmation email is sent through Gmail.
+- A sales notification is sent to Slack.
+- Lead score and follow-up date are automatically generated.
+
+### Duplicate Lead Route
+
+When an Airtable Record ID already exists:
+
+- No new Airtable record is created.
+- Gmail and Slack modules are skipped.
+- The duplicate submission is logged in the Duplicate Leads sheet.
+- The phone number and existing Airtable Record ID are recorded.
+
+### Duplicate Detection Test Result
+
+The duplicate detection test passed successfully. The workflow identified an existing email, blocked duplicate record creation, and logged the submission with its original Airtable Record ID.
+![Complete workflow with duplicate detection](screenshots/13_Complete_Workflow_With_Duplicate_Detection.png)
