@@ -143,4 +143,4 @@ When an Airtable Record ID already exists:
 ### Duplicate Detection Test Result
 
 The duplicate detection test passed successfully. The workflow identified an existing email, blocked duplicate record creation, and logged the submission with its original Airtable Record ID.
-![Complete workflow with duplicate detection](screenshots/13_Complete_Workflow_With_Duplicate_Detection.png)
+![Complete workflow with duplicate detection](13_Complete_Workflow_With_Duplicate_Detection.png)
